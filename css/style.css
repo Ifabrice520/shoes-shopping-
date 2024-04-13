@@ -1,0 +1,46 @@
+@font-face {
+    font-family: roboto;
+    src: url(roboto/Roboto-regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*logo*/
+.logo {
+    width: 20%;
+    position: absolute;
+    left: 6%;
+}
+
+.logo img {
+    width: 25%;
+}
+
+/* navigation */
+.navigation {
+    text-align: center;
+}
+
+.navigation ul li {
+    position: relative;
+    top: 30px;
+    display: inline;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: roboto;
+    margin: 30px;
+}
+
+/* icon */
+.icons {
+    position: absolute;
+    left: 85%;
+    top: 33px;
+}
