@@ -9,6 +9,7 @@
 }
 
 /*logo*/
+
 .logo {
     width: 20%;
     position: absolute;
@@ -20,6 +21,7 @@
 }
 
 /* navigation */
+
 .navigation {
     text-align: center;
 }
@@ -38,9 +40,88 @@
     margin: 30px;
 }
 
-/* icon */
-.icons {
+/* icons */
+
+.search {
+    position: absolute;
+    left: 80%;
+    top: 33px;
+    cursor: pointer;
+}
+
+.cart {
     position: absolute;
     left: 85%;
-    top: 33px;
+    top: 25px;
+    cursor: pointer;
 }
+
+.cart img {
+    width: 25px;
+}
+
+.user {
+    position: absolute;
+    left: 91%;
+    top: 28px;
+    cursor: pointer;
+}
+
+.user img {
+    width: 25px;
+}
+
+.menu {
+    position: absolute;
+    left: 95%;
+    top: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+/* left-side */
+
+.left-side {
+    width: 35%;
+    height: 50vh;
+    /* background-color: red; */
+    position: absolute;
+    left: 6%;
+    top: 25%;
+}
+
+.left-side > p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.left-side > span {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: roboto;
+}
+
+/* year */
+
+.year {
+    width: 30%;
+    font-size: 40px;
+    position: relative;
+    left: 10px;
+    font-family: roboto;
+    color: rgb(218, 147, 15);
+}
+
+/* main */
+
+.main p {
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+    font-family: roboto;
+}
+
+/*shop_btn*/
+
+
+/* right-side */
