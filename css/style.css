@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(225, 220, 220);
+}
+
 /*logo*/
 
 .logo {
@@ -123,5 +127,146 @@
 
 /*shop_btn*/
 
+.shop_btn {
+    position: absolute;
+    top: 90%;
+}
+
+.shop_btn button {
+    width: 100px;
+    height: 6vh;
+    cursor: pointer;
+    background-color: rgb(218, 147, 15);
+    border: none;
+}
+
+.shop_btn button a {
+    color: white;
+    font-size: 18px;
+    font-family: roboto;
+    text-decoration: none;
+}
+
 
 /* right-side */
+
+.right-side {
+    width: 45%;
+    height: 55vh;
+    background-color: rgb(20, 20, 20);
+    position: absolute;
+    right: 6%;
+    top: 20%;
+    border-radius: 20px;
+}
+
+.puma > img {
+    width: 70%;
+    border-radius: 30px;
+}
+
+.puma_text {
+    position: absolute;
+    left: 65%;
+    top: 30%;
+    color: rgb(218, 147, 15);
+    font-size: 30px;
+}
+
+.puma_text p {
+    color: white;
+    position: relative;
+    /* left: -5px; */
+    top: 40px;
+}
+
+.puma_text button {
+    width: 50%;
+    height: 5vh;
+    position: relative;
+    left: 85px;
+    border: 1px solid rgb(218, 147, 15);
+    border-radius: 3px;
+    background-color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+
+.puma_text button a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.first_foot {
+    width: 25%;
+    /* background-color: red; */
+    position: absolute;
+    left: 10%;
+    top: 89%;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: 1px solid rgb(218, 147, 15);
+}
+
+.first_foot_one h1 {
+    color: rgb(218, 147, 15);
+    position: relative;
+    top: 8px;
+}
+
+.first_foot_one p {
+    position: relative;
+    top: -17px;
+    font-size: 15px;
+    font-family: roboto;
+    left: 80px;
+}
+
+.second_foot {
+    width: 25%;
+    /* background-color: red; */
+    position: absolute;
+    left: 40%;
+    top: 89%;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: 1px solid rgb(218, 147, 15);
+}
+
+.second_foot_one h1 {
+    color: rgb(218, 147, 15);
+    position: relative;
+    top: 8px;
+}
+
+.second_foot_one p {
+    position: relative;
+    top: -17px;
+    font-size: 15px;
+    font-family: roboto;
+    left: 90px;
+}
+
+.third_foot {
+    width: 15%;
+    /* background-color: red; */
+    position: absolute;
+    left: 75%;
+    top: 89%;
+}
+
+.third_foot_one h1 {
+    color: rgb(218, 147, 15);
+    position: relative;
+    top: 8px;
+}
+
+.third_foot_one p {
+    position: relative;
+    top: -17px;
+    font-size: 15px;
+    font-family: roboto;
+    left: 90px;
+}
