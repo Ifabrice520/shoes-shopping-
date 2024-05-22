@@ -339,6 +339,13 @@ body {
     text-align: center;
 }
 
+#nike {
+    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 11%;
+}
+
 .grid2 {
     background-color: rgb(20, 20, 20);
 }
@@ -359,7 +366,7 @@ body {
     font-family: roboto;
     font-size: 20px;
     position: relative;
-    left: 33%;
+    left: 27%;
     top: 50px;
 }
 
@@ -370,6 +377,13 @@ body {
     top: 80px;
     text-align: center;
     color: rgb(220, 214, 214);
+}
+
+.grid2 #nik {
+    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
 }
 
 .grid3 {
@@ -398,7 +412,7 @@ body {
     font-family: roboto;
     font-size: 20px;
     position: relative;
-    left: 33%;
+    left: 24%;
     top: 50px;
 }
 
@@ -409,6 +423,13 @@ body {
     top: 80px;
     text-align: center;
     color: rgb(220, 214, 214);
+}
+
+.grid3 .nike {
+    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 59%;
 }
 
 .grid4 {
@@ -438,7 +459,7 @@ body {
     font-family: roboto;
     font-size: 20px;
     position: relative;
-    left: 33%;
+    left: 29%;
     top: 50px;
 }
 
@@ -448,4 +469,11 @@ body {
     left: 10%;
     top: 80px;
     text-align: center;
+}
+
+.grid4 .nik {
+    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 84%;
 }
