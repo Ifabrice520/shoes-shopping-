@@ -277,7 +277,7 @@ body {
     position: absolute;
     top: 105%;
     /* left: 5%; */
-    background-color: rgb(218, 215, 215);
+    background-color: rgb(211, 211, 211);
 }
 
 .offer h1 {
@@ -476,4 +476,79 @@ body {
     position: absolute;
     bottom: 20px;
     left: 84%;
+}
+
+
+.our_collection {
+    width: 100%;
+    height: 140%;
+    background-color: rgb(225, 220, 220);
+    position: absolute;
+    top: 185%;
+}
+
+.our_collection h1 {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-family: roboto;
+}
+
+.our_collection span {
+    color: rgb(218, 147, 15);
+}
+
+.collection_link {
+    text-align: center;
+}
+
+.collection_link ul li {
+    position: relative;
+    top: 90px;
+    display: inline;
+}
+
+.collection_link ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: roboto;
+    margin: 150px;
+}
+
+.collection_link ul li .active {
+    color: rgb(218, 147, 15);
+}
+
+.overview {
+    width: 80%;
+    height: 137.5vh;
+    position: relative;
+    left: 10%;
+    top: 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 20px;
+}
+
+.overview > div {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview > div > div {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.overview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
