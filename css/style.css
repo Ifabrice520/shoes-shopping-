@@ -632,6 +632,10 @@ body {
     background-color: rgb(225, 220, 220);
 }
 
+.left {
+    box-shadow: 0 4px 8px 0 rgb(136, 133, 133);
+}
+
 .left img {
     width: 50px;
     height: 7vh;
@@ -678,6 +682,10 @@ body {
     top: 10px;
 }
 
+.center {
+    box-shadow: 0 4px 8px 0 rgb(136, 133, 133);
+}
+
 .center img {
     width: 50px;
     height: 7vh;
@@ -701,6 +709,10 @@ body {
     font-weight: 300;
     position: relative;
     top: 10px;
+}
+
+.right {
+    box-shadow: 0 4px 8px 0 rgb(136, 133, 133);
 }
 
 .right img {
