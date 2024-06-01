@@ -748,3 +748,76 @@ body {
     position: absolute;
     top: 445%;
 }
+
+.full_join {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.full_join img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; 
+}
+
+.letter {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 445%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.letter h1 {
+    position: relative;
+    color: white;
+    font-family: roboto;
+    text-align: center;
+    top: 40px;
+}
+
+.letter span {
+    color: rgb(218, 147, 15);
+}
+
+.letter p {
+    width: 30%;
+    color: white;
+    /* text-align: center; */
+    position: relative;
+    left: 35%;
+    top: 80px;
+    font-family: roboto;
+}
+
+.letter input {
+    position: relative;
+    left: 35%;
+    top: 110px;
+    width: 25%;
+    height: 5vh;
+    border: none;
+}
+
+.letter button {
+    width: 80px;
+    position: relative;
+    left: 34.5%;
+    height: 5vh;
+    top: 111px;
+    border: none;
+    background-color: rgb(218, 147, 15);
+    font-family: roboto;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.letter input:focus {
+    outline: none;
+}
