@@ -743,7 +743,7 @@ body {
 
 .join {
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     background-color: rgb(225, 220, 220);
     position: absolute;
     top: 445%;
@@ -767,7 +767,7 @@ body {
 
 .letter {
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     position: absolute;
     top: 445%;
     background-color: black;
@@ -789,17 +789,22 @@ body {
 .letter p {
     width: 30%;
     color: white;
-    /* text-align: center; */
     position: relative;
     left: 35%;
-    top: 80px;
+    top: 75px;
     font-family: roboto;
+}
+
+.letter #nobis {
+    text-align: center;
+    position: relative;
+    top: 90px;
 }
 
 .letter input {
     position: relative;
     left: 35%;
-    top: 110px;
+    top: 130px;
     width: 25%;
     height: 5vh;
     border: none;
@@ -810,7 +815,7 @@ body {
     position: relative;
     left: 34.5%;
     height: 5vh;
-    top: 111px;
+    top: 131px;
     border: none;
     background-color: rgb(218, 147, 15);
     font-family: roboto;
@@ -820,4 +825,35 @@ body {
 
 .letter input:focus {
     outline: none;
+}
+
+.footer {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(225, 220, 220);
+    position: absolute;
+    top: 490%;
+}
+
+#left #logo {
+    width: 20%;
+    position: absolute;
+    left: 6%;
+    top: 30px;
+}
+
+#left #logo img {
+    width: 25%;
+}
+
+#left #lorem {
+    position: absolute;
+    left: 6%;
+    top: 130px;
+    font-size: 18px;
+}
+
+#left #lorem span {
+    position: relative;
+    top: 16px;
 }
