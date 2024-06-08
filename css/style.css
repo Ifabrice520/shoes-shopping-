@@ -904,3 +904,52 @@ body {
     margin: 15px;
     display: block;
 }
+
+#right h1 {
+    position: absolute;
+    top: 42px;
+    right: 6%;
+    color: rgb(218, 147, 15);
+    font-family: roboto, sans-serif;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+form {
+    position: absolute;
+    right: 8%;
+    top: 110px;
+}
+
+form input {
+    width: 130%;
+    padding: 5px;
+    border: none;
+
+}
+
+form input:focus{
+    outline: none;
+}
+
+.submit {
+    background-color: rgb(218, 147, 15);
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+}
+
+.suber {
+    width: 100%;
+    height: 6vh;
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid black;
+}
+
+.suber p {
+    text-align: center;
+    position: relative;
+    top: 12px;
+}
